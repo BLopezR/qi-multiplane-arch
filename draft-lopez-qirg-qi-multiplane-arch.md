@@ -227,7 +227,14 @@ At the forwarding level, there is a radical difference between the network eleme
 
 ## Applying Network Virtualization Principles
 
-Recent proposals for QKD network management have explored the use of operational models that radically leverage the virtualization of control and key management functionalities. These approaches pave the way for a tighter integration of quantum functionality with functions already established in state of the art classical networks, while adhering to established QKD network standards.
+Recent proposals for QKD network management have explored the use of operational models that radically leverage the virtualization of control and key management functionalities [cite_ieee]. These approaches pave the way for a tighter integration of quantum functionality with functions already established in state of the art classical networks, such as the authentication server function (AUSF) and the access or mobility management function (AMF), while adhering to established QKD network standards. Integrating these mechanisms enhance security measures and ensure that quantum networks can seamlessly interface with existing and future telecommunications infrastructure.
+
+While SDN ensures higher degrees of flexibility and reconfigurability by allowing network functions to be easily modified and upgraded through software changes, virtualization enables the abstraction of hardware devices by creating virtual instances, which improves scalability, resource efficiency and allows the dynamic allocation of softwarized network functions in different locations. As quantum technology and standards evolve, a virtualized layer for softwarized network functions significantly aids adaptation to these changes, ensuring pliability and responsiveness for seamless updates, and incorporating new mechanisms without extensive hardware modifications.
+
+As for key exchange, current technology does not allow direct end-to-end quantum key exchange between distant nodes. Instead, key distribution must rely on trusted intermediary nodes to transmit keys hop-by-hop. A key management layer where the actions of all nodes are coordinated is needed to ensure secure and efficient key distribution. Virtualizing and decoupling key management from the physical QKD devices enhances flexibility and scalability, and supports the integration of hybrid cryptographic strategies, combining QKD and post-quantum algorithms to ensure security and performance.Additionally, it allows real-time performance monitoring, data-driven control and management, and tailored access and admission mechanisms [cite qcnc24].
+
+
+
 
 (TBD: Include here the reference and results of a paper on the mentioned approach, and extend the discussion on the general architecture framework with the lessons learned in the preparation of that paper)
 
